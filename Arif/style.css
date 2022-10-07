@@ -1,0 +1,33 @@
+body{
+    font-size:25x
+}
+ol{
+    color:green
+}
+ol li{
+    color:red
+}
+mylist ol{
+    color:blue
+}
+h1{
+    text-align: center;
+    color:green
+}
+p{
+    text-align: center;
+}
+
+/* relationsal selectors 
+
+#myList p - all p elements inside myslist
+#mylist > p all p elements that direct chulden of this id 
+#mylist +p the p element immediately after the mylist
+#myList ~p all p elements after the myList 
+
+pusdo class 
+
+ol :first-child :first child 
+ol :nth-of-child(even) selects all even elemtns in the list
+
+p:: first letter the first leeter of every p element
